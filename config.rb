@@ -28,6 +28,8 @@ class Parser
 		puts "An event for key Up arrived! It was a release!"
 	end
 
+	# The methods in this class can optionally take one argument, which corresponds
+	# to the event type (0 for "release", 1 for "press" and 2 for "hold").
 	def KEY_RIGHT(value)
 		puts "An event for key Right arrived! Parsing event..."
 
