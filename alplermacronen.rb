@@ -28,7 +28,7 @@ end
 grab = true
 if ARGV.size != 1
 	abort("ERROR: Expected exactly one argument.\n
-	      Usage: ./remote_control.rb /dev/input/eventX")
+	      Usage: ./alplermacronen.rb /dev/input/eventX")
 end
 
 # Check if evtest is installed
